@@ -1,8 +1,8 @@
 #ifndef RIDER_H
 #define RIDER_H
 
-#include "Person.h"
-#include "Ride.h"
+#include "../Person/person.h"
+#include "../Ride/ride.h"
 #include <vector>
 
 class Rider : public Person {

@@ -1,4 +1,4 @@
-#include "../headers/system.h"
+#include "system.h"
 #include <iostream>
 
 System::System(int drivers, vector<Rider>& riders) : drivers(drivers), riders(riders) {

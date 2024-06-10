@@ -1,7 +1,7 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
-#include "Rider.h"
+#include "../Rider/rider.h"
 #include <vector>
 
 class System {

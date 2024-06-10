@@ -1,4 +1,4 @@
-#include "../headers/rider.h"
+#include "rider.h"
 #include <iostream>
 
 Rider::Rider(int id, string name) : Person(name), id(id) {}

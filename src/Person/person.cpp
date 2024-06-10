@@ -1,3 +1,3 @@
-#include "../headers/person.h"
+#include "person.h"
 
 Person::Person(string name) : name(name) {}

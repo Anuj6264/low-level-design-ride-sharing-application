@@ -1,4 +1,4 @@
-#include "../headers/ride.h"
+#include "ride.h"
 
 Ride::Ride() : id(0), origin(0), dest(0), seats(0), rideStatus(IDLE) {}
 

@@ -1,6 +1,7 @@
-#include "../headers/system.h"
-#include "../headers/rider.h"
-#include "../headers/driver.h"
+#include "Driver/driver.h"
+#include "Rider/rider.h"
+#include "Driver/driver.h"
+#include "System/system.h"
 #include <iostream>
 
 int main() {

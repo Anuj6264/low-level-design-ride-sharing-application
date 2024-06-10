@@ -1,7 +1,7 @@
 #ifndef DRIVER_H
 #define DRIVER_H
 
-#include "Person.h"
+#include "../Person/person.h"
 
 class Driver : public Person {
 public:

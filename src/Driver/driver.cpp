@@ -1,3 +1,3 @@
-#include "../headers/driver.h"
+#include "driver.h"
 
 Driver::Driver(string name) : Person(name) {}
