@@ -1,6 +1,9 @@
 #include "ride.h"
 
-Ride::Ride() : id(0), origin(0), dest(0), seats(0), rideStatus(IDLE) {}
+Ride::Ride() {
+    id = origin = dest = seats = 0;
+    rideStatus = RideStatus :: IDLE;
+}
 
 int Ride::calculateFare(bool isPriorityRider) {
     int dist = dest - origin;
@@ -10,7 +13,7 @@ int Ride::calculateFare(bool isPriorityRider) {
 }
 
 void Ride::setDest(int dest) {
-    this->dest = dest;
+    this -> dest = dest;
 }
 
 int Ride::getId() const {
@@ -18,11 +21,11 @@ int Ride::getId() const {
 }
 
 void Ride::setId(int id) {
-    this->id = id;
+    this -> id = id;
 }
 
 void Ride::setOrigin(int origin) {
-    this->origin = origin;
+    this -> origin = origin;
 }
 
 RideStatus Ride::getRideStatus() const {
@@ -30,9 +33,9 @@ RideStatus Ride::getRideStatus() const {
 }
 
 void Ride::setRideStatus(RideStatus rideStatus) {
-    this->rideStatus = rideStatus;
+    this -> rideStatus = rideStatus;
 }
 
 void Ride::setSeats(int seats) {
-    this->seats = seats;
+    this -> seats = seats;
 }

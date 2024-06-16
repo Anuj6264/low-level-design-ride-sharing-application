@@ -9,7 +9,7 @@ class Rider : public Person {
 private:
     int id;
     vector<Ride> completedRides;
-    Ride currentRide;
+    vector<Ride> allRides;
 public:
     Rider(int id, string name);
     void createRide(int id, int origin, int dest, int seats);

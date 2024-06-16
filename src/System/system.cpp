@@ -1,10 +1,12 @@
 #include "system.h"
 #include <iostream>
 
-System::System(int drivers, vector<Rider>& riders) : drivers(drivers), riders(riders) {
+System::System(int drivers, vector<Rider>& riders) {
     if (drivers < 2 || riders.size() < 2) {
         cout << "Not enough drivers or riders\n";
     }
+    this -> drivers = drivers;
+    this -> riders = riders;
 }
 
 void System::createRide(int riderId, int rideId, int origin, int dest, int seats) {
